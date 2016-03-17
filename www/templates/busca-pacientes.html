@@ -1,0 +1,19 @@
+<ion-view cache-view="false" view-title="Busca e cadastro de pacientes">
+    <ion-content padding="true">
+        <a href="#/app/paciente-add">
+            <button class="button button-block button-energized">
+                Adicionar Paciente
+            </button>
+        </a>
+        <table ng-table="tableParams" class="table" show-filter="true">
+            <tr ng-repeat="paciente in $data">
+                <td title="'Nome'" filter="{ nome: 'text'}" sortable="'nome'">
+                    <a ng-href="#/app/paciente-info/{{paciente.id}}/cuidados/">{{paciente.nome}}</a>
+                </td>
+                <td title="'Prontuário'" filter="{ numero_printuario: 'text'}" sortable="'numero_prontuario'">
+                    <a ng-href="#/app/paciente-info/{{paciente.id}}/cuidados/">{{paciente.numero_prontuario}}</a>
+                </td>
+            </tr>
+        </table>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,902 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data",
+				"database"
+			],
+			[
+				"articula",
+				"articulacoes"
+			],
+			[
+				"fr",
+				"FROM"
+			],
+			[
+				"des",
+				"descricao"
+			],
+			[
+				"res",
+				"respref"
+			],
+			[
+				"Paci",
+				"PacientesMock"
+			],
+			[
+				"sta",
+				"stateParams"
+			],
+			[
+				"paciente",
+				"pacientes"
+			],
+			[
+				"ca",
+				"campeonatos"
+			],
+			[
+				"is",
+				"isReceberNotificacao"
+			],
+			[
+				"notificatio",
+				"notifications"
+			],
+			[
+				"sele",
+				"selectDB"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"d",
+				"dias"
+			],
+			[
+				"nome",
+				"nome"
+			],
+			[
+				"seto",
+				"setorSelecionado"
+			],
+			[
+				"get",
+				"getMock"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"click",
+				"clickOut"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"clo",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"Modl",
+				"modulo1"
+			],
+			[
+				"mod",
+				"modulo1"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/templates/estatisticas.html",
+			"settings":
+			{
+				"buffer_size": 3395,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/controllers/EstatisticasCtrl.js",
+			"settings":
+			{
+				"buffer_size": 2866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/busca-pacientes.html",
+			"settings":
+			{
+				"buffer_size": 913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/controllers/PacienteAddCtrl.js",
+			"settings":
+			{
+				"buffer_size": 1399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/paciente-add.html",
+			"settings":
+			{
+				"buffer_size": 2249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/controllers/AppCtrl.js",
+			"settings":
+			{
+				"buffer_size": 2866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/modules/app.js",
+			"settings":
+			{
+				"buffer_size": 6202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/paciente-editar.html",
+			"settings":
+			{
+				"buffer_size": 1724,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/menu.html",
+			"settings":
+			{
+				"buffer_size": 1509,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ident",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"pretf",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"prettify",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"",
+				"Auto indent"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"inde",
+				"Indent XML"
+			],
+			[
+				"package control",
+				"Package Control: Add Channel"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"clear",
+				"Bookmarks: Clear All"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/franklinoliveira/Downloads/biserver-ce/pentaho-solutions/system/karaf/etc/org.apache.karaf.features.cfg",
+		"/Users/franklinoliveira/tableau/clientes.csv",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/PacienteInfoCtrl.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/paciente-info.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/estatisticas.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/EstatisticasCtrl.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/AppCtrl.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/modules/app.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/busca-pacientes.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/index.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/package.json",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/bower.json",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/paciente-genograma.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/sobre.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/paciente-add.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/services/database.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/services/FileService.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/services/ImageService.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/config.xml",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/articulacao-cuidado.html",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/www/js/services/ajaxService.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/ArticulacaoCuidadoCtrl.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/BuscaPacientesCtrl.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/PacienteAddCtrl.js",
+		"/Users/franklinoliveira/devopen/_layouts/post.html",
+		"/Users/franklinoliveira/devopen/_layouts/default.html",
+		"/Users/franklinoliveira/devopen/_includes/header.html",
+		"/Users/franklinoliveira/devopen/projetos.md",
+		"/Users/franklinoliveira/devopen/index.html",
+		"/Users/franklinoliveira/devopen/_config.yml",
+		"/Users/franklinoliveira/devopen/about.md",
+		"/Users/franklinoliveira/devopen/_layouts/page.html",
+		"/Users/franklinoliveira/devopen/achei.md",
+		"/Users/franklinoliveira/devopen/_includes/footer.html",
+		"/Users/franklinoliveira/devopen/cuidato.md",
+		"/Users/franklinoliveira/devopen/_site/about/index.html",
+		"/Users/franklinoliveira/devopen/_includes/head.html",
+		"/Users/franklinoliveira/sass/sass/assets/css/style.css",
+		"/Users/franklinoliveira/sass/sass/assets/_sass/style.sass",
+		"/Users/franklinoliveira/sass/sass/Gruntfile.js",
+		"/Users/franklinoliveira/sass/sass/assets/_sass/_reset.sass",
+		"/Users/franklinoliveira/sass/sass/assets/css/style.css.map",
+		"/Users/franklinoliveira/sass/sass/index.html",
+		"/Users/franklinoliveira/sass/sass/package.json",
+		"/Users/franklinoliveira/sass/sass.sublime-project",
+		"/Users/franklinoliveira/sass/sass.sublime-workspace",
+		"/Users/franklinoliveira/gruntjs/grunt-test/grunt-test/Gruntfile.js",
+		"/Users/franklinoliveira/gruntjs/grunt-test/grunt-test/assets/_js/scripts.js",
+		"/Users/franklinoliveira/gruntjs/grunt-test/grunt-test/assets/js/main.js",
+		"/Users/franklinoliveira/gruntjs/grunt-test/grunt-test/assets/_sass/style.sass",
+		"/Users/franklinoliveira/gruntjs/grunt-test/grunt-test/index.html",
+		"/Users/franklinoliveira/gruntjs/grunt-test/grunt-test/package.json",
+		"/Users/franklinoliveira/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/franklinoliveira/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/TabTesteCtrl.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/IndexCtrl.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/menu.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/paciente-editar.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/constants/constants.js",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/www/index.html",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/www/js/controllers/treinos.controller.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/modules/starter.controllers.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/controllers copy 3.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/controllers.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/controllers copy 2.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/controllers copy.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers/controllers copy 4.js",
+		"/Users/franklinoliveira/atletica/Instalar apk - cors",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/apresentacao.html",
+		"/Users/franklinoliveira/Downloads/Ionic-Material-master/demo/www/index.html",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/www/templates/submenu/jogos.html",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/www/templates/submenu/jogos_detalhes.html",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/www/js/controllers/jogos.controller.js",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/www/js/modules/starter.js",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/www/js/services/shareDataViewService.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/ng-table.min.css",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/login.html",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_layouts/post.html",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_config.yml",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_layouts/page.html",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_includes/footer.html",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/index.html",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_layouts/default.html",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_includes/header.html",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_includes/head.html",
+		"/Users/franklinoliveira/Downloads/gridpak/gridpak.css",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_site/css/main.css",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/css/main.scss",
+		"/Users/franklinoliveira/jekyll/my-awesome-site/_sass/_base.scss",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/paciente.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/paciente-cadastro.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/pcadastro.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/carregando.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/ng-table.min.js",
+		"/Users/franklinoliveira/cuidato/ng-table.min.css",
+		"/Users/franklinoliveira/atletica/atletica-aplicativo/ionic.project",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/ionic.project",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/apresentacao1.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/apresentacao3.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/templates/apresentacao2.html",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/controllers.js",
+		"/Users/franklinoliveira/cuidato/cuidato-aplicativo/cuidato/www/js/app.js",
+		"/Users/franklinoliveira/cuidato/cuidatoapp.ep",
+		"/Users/franklinoliveira/cuidato/cuidato.ep",
+		"/Users/franklinoliveira/cuidato/template hmagalhaes/Resources/style/style.min.css",
+		"/Users/franklinoliveira/workspaces/jenkins/jenkins/pom.xml",
+		"/Users/franklinoliveira/apache-tomcat-7.0.59/webapps/jenkins/index.html",
+		"/Users/franklinoliveira/apache-tomcat-7.0.59/conf/server.xml",
+		"/Users/franklinoliveira/workspaces/springmvc-webapp-angular/springmvc-webapp-angular/pom.xml",
+		"/Users/franklinoliveira/AngularJS Course CodeSchool/index.html",
+		"/Users/franklinoliveira/workspaces/springmvc-angular/springmvc-angular/src/main/webapp/resources/js/validator.min.js",
+		"/Users/franklinoliveira/appengine-try-java-master/pom.xml",
+		"/Users/franklinoliveira/votenorestaurante/pom.xml",
+		"/Users/franklinoliveira/appengine-try-java-master2/target/appengine-try-java-1.0/META-INF/persistence.xml",
+		"/Users/franklinoliveira/appengine-try-java-master2/pom.xml",
+		"/Users/franklinoliveira/firebaseinit/index.html",
+		"/Users/franklinoliveira/apache-tomcat-7.0.59/conf/context.xml",
+		"/Users/franklinoliveira/hsqldb-2.3.1/lib/mydb.properties",
+		"/Users/franklinoliveira/franklingithubpages/franklindeoliveira.github.io/params.json",
+		"/Users/franklinoliveira/unity/SapaoOriginal/Assets/Scripts/GeradorObjetos.cs",
+		"/Users/franklinoliveira/unity/Sapao/Assets/Scripts/GeradorObjetos.cs",
+		"/Users/franklinoliveira/unity/SapaoOriginal/Assets/Scripts/MoveObjetos.cs",
+		"/Users/franklinoliveira/workspaces/explorando-marte/explorandomarte/bin/entrada.txt",
+		"/Applications/eclipse/Eclipse.app/Contents/MacOS/explorando-marte/explorando-marte/src/ExplorandoMarte.java",
+		"/Users/franklinoliveira/workspaces/explorando-marte/explorandomarte/bin/saida.txt",
+		"/Users/franklinoliveira/franklingithubpages/franklindeoliveira.github.io/jogos.html",
+		"/Users/franklinoliveira/franklingithubpages/franklindeoliveira.github.io/index.html",
+		"/Users/franklinoliveira/Google Drive/springmvc-jpa-advanced.md"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cache",
+			"alert",
+			"angular",
+			"imageser",
+			"cameras",
+			"ng-src",
+			"resolve",
+			"ng-src",
+			"contextos",
+			"contexto",
+			"articulacoes",
+			"paciente",
+			"about",
+			"t",
+			"tes",
+			"index",
+			"buscaCuidados",
+			"salvarCuidado",
+			"cuidado.status",
+			"cuidado.sta",
+			"buscaCuidados",
+			"$scope.contexto",
+			"salvarContexto",
+			"buscaDemanda",
+			"demanda",
+			"contexto",
+			"$scope.cuidado",
+			"adicionarCuidado",
+			"nvulnerab",
+			"pacientes",
+			"adicionarc",
+			"salvarDemanda",
+			"buscaCuidados",
+			"cuidados_info",
+			"adicionarCuidado",
+			"cuidado",
+			"Visualizar",
+			"href",
+			"alert",
+			"}\n",
+			"sta",
+			"ng-cor",
+			"sref",
+			"cuidado",
+			"info",
+			"mock",
+			"demanda",
+			"alert",
+			"console.lo",
+			"paciente ca",
+			"context",
+			"contex",
+			"paciente-in",
+			"paciente",
+			"jogos",
+			"trein",
+			"modal",
+			"BuscaPacientesCtrl",
+			"<Page>",
+			"carre",
+			"carregando",
+			"carrega",
+			"carregando",
+			"page",
+			"8ua44i0mfjkqmhqob2",
+			"java",
+			"jpa",
+			".pdf",
+			"pdf",
+			"×",
+			"alert",
+			"wind",
+			"o_inter_detalhes",
+			"loadNotifications",
+			"tituloNotiticacao",
+			"saveTreinosModal",
+			"loadNotifications",
+			"console",
+			"getMembrosPorSetor",
+			" >{{",
+			"1",
+			"authenticated",
+			"Ctrl",
+			"create ",
+			"create",
+			"home",
+			"build",
+			"mincss",
+			"postgres",
+			"'",
+			"\"",
+			"pdf",
+			"jms-destinations",
+			"jms-de",
+			"jms",
+			"chain",
+			"contaPossuiAcesso",
+			"obterResourceSelecionado",
+			"contaPossuiAcesso",
+			"obterContasAcesso",
+			"jcarousel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"getTreinosPorModalidade",
+			"0",
+			"Controller",
+			"    ",
+			"",
+			"\"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/templates/estatisticas.html",
+					"settings":
+					{
+						"buffer_size": 3395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								664,
+								664
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/js/controllers/EstatisticasCtrl.js",
+					"settings":
+					{
+						"buffer_size": 2866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2264,
+								2264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 652.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/templates/busca-pacientes.html",
+					"settings":
+					{
+						"buffer_size": 913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								913,
+								913
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/js/controllers/PacienteAddCtrl.js",
+					"settings":
+					{
+						"buffer_size": 1399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/templates/paciente-add.html",
+					"settings":
+					{
+						"buffer_size": 2249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/js/controllers/AppCtrl.js",
+					"settings":
+					{
+						"buffer_size": 2866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/js/modules/app.js",
+					"settings":
+					{
+						"buffer_size": 6202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5813,
+								5813
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 10.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/templates/paciente-editar.html",
+					"settings":
+					{
+						"buffer_size": 1724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/templates/menu.html",
+					"settings":
+					{
+						"buffer_size": 1509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1395,
+								1395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Competências Proficionais"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true
+}

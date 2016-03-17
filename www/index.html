@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="lib/ng-table/dist/ng-table.min.css" rel="stylesheet">
+    <!-- <link href="lib/ionic-material-design-lite/dist/css/ionic.material-design-lite.min.css" rel="stylesheet"> -->
+    <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="ng-cordova.min.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <!-- your app's js -->
+    <!--<script src="https://cdn.rawgit.com/delta98/ionic-material-design-lite/master/dist/ionic.material-design-lite.js"></script>-->
+    <script src="lib/ng-table/dist/ng-table.min.js"></script>
+    <!--<script src="lib/ionic-material-design-lite/dist/js/ionic.material-design-lite.bundle.min.js"></script>-->
+    <!-- Modules -->
+    <script src="js/modules/app.js"></script>
+    <script src="js/modules/starter.controllers.js"></script>
+    <!-- Controllers -->
+    <script src="js/controllers/AppCtrl.js"></script>
+    <script src="js/controllers/BuscaPacientesCtrl.js"></script>
+    <script src="js/controllers/ArticulacaoCuidadoCtrl.js"></script>
+    <script src="js/controllers/EstatisticasCtrl.js"></script>
+    <script src="js/controllers/PacienteInfoCtrl.js"></script>
+    <script src="js/controllers/PacienteAddCtrl.js"></script>
+    <script src="js/controllers/IndexCtrl.js"></script>
+    <!-- Directives -->
+    <!-- Services -->
+    <script src="js/services/database.js"></script>
+    <!-- Constants -->
+    <script src="js/constants/constants.js"></script>
+</head>
+
+<body ng-app="starter">
+    <ion-view>
+        <ion-content padding="true" ng-controller="IndexCtrl">
+            <div>
+                <ion-slide-box active-slide="0">
+                    <ion-slide>
+                        <img src="img/ap1.png" style="max-width: 100%">
+                    </ion-slide>
+                    <ion-slide>
+                        <img src="img/ap2.png" style="max-width: 100%">
+                    </ion-slide>
+                    <ion-slide>
+                        <img src="img/ap3.png" style="max-width: 100%">
+                        <!-- <a href="#/app/articulacao/cuidado"> -->
+                            <button ng-click="comecar()" class="button button-block button-energized">Começar!</button>
+                        <!-- </a> -->
+                    </ion-slide>
+                </ion-slide-box>
+            </div>
+        </ion-content>
+    </ion-view>
+    <ion-nav-view></ion-nav-view>
+</body>
+
+</html>

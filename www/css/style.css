@@ -1,0 +1,33 @@
+/* Empty. Add your own CSS if you like */
+
+table,
+tr,
+td {
+    border: 1px solid #DDDDDD;
+}
+
+a {
+    text-decoration: none;
+}
+
+td {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+ul.list li.item {
+	padding: 8px;
+}
+
+div.list label.item input {
+	border-bottom: 1px solid lightblue !important;
+}
+
+.tab-item-active {
+	border-color: #FFC900 !important;
+
+}
+
+.tabs-top.tabs-striped .tab-item.tab-item-active, .tabs-top.tabs-striped .tab-item.active, .tabs-top.tabs-striped .tab-item.activated {
+	border-width: 0px 0px 5px 0px !important;
+}

@@ -1,0 +1,67 @@
+<ion-view cache-view="false" view-title="Estatísticas">
+    <ion-content padding="true">
+        <div class="list">
+            <button ng-click="limparFiltros()" class="button button-block button-energized">
+                Limpar filtros
+            </button>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Período (De)</span>
+                <input type="date" ng-model="criterios.data.de">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Período (Até)</span>
+                <input type="date" ng-model="criterios.data.ate">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Idade (De)</span>
+                <input type="number" ng-model="criterios.idade.de" min="0">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Idade (Até)</span>
+                <input type="number" ng-model="criterios.idade.ate">
+            </label>
+            <!--
+    
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Equipe</span>
+                <input type="text">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Tipo de cuidado</span>
+                <input type="text">
+            </label>
+            <div class="row">
+                <div class="col col-50">
+                    <button class="button button-block">
+                        Filtrar
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="button button-block">
+                        Exportar
+                    </button>
+                </div>
+            </div>
+        </div>
+        -->
+            <table ng-table="tableParams" class="table table-condensed table-bordered table-striped" show-filter="true">
+                <tr ng-repeat="registro in $data | filter:estatisticasFilter(criterios)">
+                    <td title="'Data'" filter="{ data: 'text'}" sortable="'data'">
+                        <a ng-href="#/app/paciente-info/{{registro.id_paciente}}/cuidados/">{{registro.data}}</a>
+                    </td>
+                    <td title="'Nome'" filter="{ nome: 'text'}" sortable="'nome'">
+                        <a ng-href="#/app/paciente-info/{{registro.id_paciente}}/cuidados/">{{registro.nome}}</a>
+                    </td>
+                    <td title="'Idade'" filter="{ idade: 'text'}" sortable="'idade'">
+                        <a ng-href="#/app/paciente-info/{{registro.id_paciente}}/cuidados/">{{registro.idade}}</a>
+                    </td>
+                    <!-- <td title="'Idade'" filter="{ idade: 'text'}" sortable="'idade'">
+                    <a ng-href="#/app/paciente-info/{{registro.id_paciente}}/cuidados/">{{registro.idade}}</a>
+                </td> -->
+                    <td title="'Nº Prontuário'" filter="{ numero_prontuario: 'text'}" sortable="'numero_prontuario'">
+                        <a ng-href="#/app/paciente-info/{{registro.id_paciente}}/cuidados/">{{registro.numero_prontuario}}</a>
+                    </td>
+                </tr>
+            </table>
+    </ion-content>
+</ion-view>

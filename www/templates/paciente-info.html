@@ -1,0 +1,254 @@
+<ion-view cache-view="false" view-title="{{paciente.nome}}, {{paciente.numero_prontuario}}">
+    <!-- <ion-nav-title>{{paciente.nome}}</ion-nav-title> -->
+    <ion-tabs class="tabs-striped tabs-top tabs-calm tabs-background-default">
+        <ion-tab title="Cadastro" ng-href="#/app/paciente-info/{{paciente.id}}/visualizar/" on-select="onTabSelect(0)">
+            <ion-content padding="true" ng-hide="editar">
+                <span>Cadastro > Visualizar</span>
+                <ul class="list">
+                    <li class="item">
+                        Nome: {{paciente.nome}}
+                    </li>
+                    <li class="item">
+                        Idade: {{paciente.idade}}
+                    </li>
+                    <li class="item">
+                        Nascimento: {{paciente.nasc | date: 'dd/MM/yyyy'}}
+                    </li>
+                    <li class="item">
+                        Prontuário: {{paciente.numero_prontuario}}
+                    </li>
+                    <li class="item">
+                        Telefone: {{paciente.telefone}}
+                    </li>
+                    <li class="item">
+                        Escola: {{paciente.escola}}
+                    </li>
+                    <li class="item">
+                        Trabalho: {{paciente.trabalho}}
+                    </li>
+                    <li class="item">
+                        Responsável: {{paciente.respref}}
+                    </li>
+                    <li class="item">
+                        Vulnerabilidade: {{paciente.nvulnerab}}
+                    </li>
+                </ul>
+                <a ng-click="showEditar()">
+                    <button class="button button-block button-energized">
+                        Editar
+                    </button>
+                </a>
+                <!-- <a class="button" ng-click="tab()">tab</a> -->
+            </ion-content>
+            <ion-content padding="true" ng-show="editar">
+                <span>Cadastro > Editar</span>
+                <div class="list">
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Nome</span>
+                        <input type="text" ng-model="paciente.nome">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Idade</span>
+                        <input type="text" ng-model="paciente.idade">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Nascimento</span>
+                        <input type="date" ng-model="paciente.nasc">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Prontuário</span>
+                        <input type="text" ng-model="paciente.numero_prontuario">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Telefone</span>
+                        <input type="text" ng-model="paciente.telefone">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Escola</span>
+                        <input type="text" ng-model="paciente.escola">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Trabalho</span>
+                        <input type="text" ng-model="paciente.trabalho">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Responsável</span>
+                        <input type="text" ng-model="paciente.respref">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Vulnerabilidade</span>
+                        <input type="text" ng-model="paciente.nvulnerab">
+                    </label>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a ng-click="cancelar()">
+                            <button class="button button-block button-energized">
+                                Cancelar
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a ng-click="salvar()">
+                            <button class="button button-block button-energized">
+                                Salvar
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </ion-content>
+        </ion-tab>
+        <ion-tab title="Contexto" ng-href="#/app/paciente-info/{{paciente.id}}/contexto/" on-select="onTabSelect(1)">
+            <ion-content padding="true">
+                <div class="list">
+                    <a ng-hide="hasGenograma" ng-click="getPhoto()" class="item item-icon-left" href="#">
+                        <i class="icon ion-camera"></i>
+                        Digitalizar Genograma
+                    </a>
+                    <a ng-show="hasGenograma" ng-click="openModal()" class="item item-icon-left" href="#">
+                        <i class="icon ion-image"></i>
+                        Visualizar Genograma
+                    </a>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Familiar</span>
+                        <textarea ng-model="contexto.familiar"></textarea>
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Cotidiano</span>
+                        <textarea ng-model="contexto.cotidiano"></textarea>
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Paticipação social</span>
+                        <textarea ng-model="contexto.participacao_social"></textarea>
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Tecnologias de apoio</span>
+                        <textarea ng-model="contexto.tecnologias_apoio"></textarea>
+                    </label>
+                </div>
+                <button class="button button-block button-energized" ng-click="salvarContexto()">Salvar</button>
+            </ion-content>
+            <ion-content padding="true" ng-hide="true"></ion-content>
+        </ion-tab>
+        <ion-tab title="Demanda" ng-href="#/app/paciente-info/{{paciente.id}}/demanda/" on-select="onTabSelect(2)">
+            <ion-content padding="true">
+                <div class="list">
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Lista de demandas livres</span>
+                        <textarea ng-model="demanda.demandas_livres"></textarea>
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Problemas codificados (APS e CIF)</span>
+                        <textarea ng-model="demanda.problemas_codificados"></textarea>
+                    </label>
+                </div>
+                <button class="button button-block button-energized" ng-click="salvarDemanda()">Salvar</button>
+            </ion-content>
+            <ion-content padding="true" ng-hide="true"></ion-content>
+        </ion-tab>
+        <ion-tab title="Cuidados" ng-href="#/app/paciente-info/{{paciente.id}}/cuidados/" on-select="onTabSelect(3)">
+            <ion-content padding="true" ng-show="cuidados_busca">
+                <table ng-table="tableParams" class="table table-condensed table-bordered table-striped" show-filter="true">
+                    <tr ng-repeat="cuidado in $data">
+                        <td title="'Data'" filter="{ data: 'text'}" sortable="'data'">
+                            <a ng-click="showTelaEditarCuidado($index)">{{cuidado.data | date: 'dd/MM/yyyy'}}</a></td>
+                        <td title="'Descrição'" filter="{ descricao: 'text'}" sortable="'descricao'">
+                            <a ng-click="showTelaEditarCuidado($index)">{{cuidado.descricao}}</a></td>
+                        <td title="'Articulação'" filter="{ articulacao: 'text'}" sortable="'articulacao'">
+                            <a ng-click="showTelaEditarCuidado($index)">{{cuidado.articulacao}} ({{cuidado.status}})</a></td>
+                    </tr>
+                </table>
+                <a ng-click="mostrarAdicionarCuidado()">
+                    <button class="button button-block button-energized">
+                        Adicionar
+                    </button>
+                </a>
+            </ion-content>
+            <ion-content padding="true" ng-show="cuidados_info">
+                <span>Cuidados &rsaquo; Editar</span>
+                <div class="list">
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Data do atendimento</span>
+                        <input type="date" ng-model="cuidado.data">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Tipo de cuidado</span>
+                        <input type="text" ng-model="cuidado.tipo">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Descricao do atendimento (SOAP)</span>
+                        <input type="text" ng-model="cuidado.descricao">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Articulação do cuidado</span>
+                        <input type="text" ng-model="cuidado.articulacao">
+                        <div class="row">
+                            <div class="col">
+                                <ion-radio ng-model="cuidado.status" ng-value="'afazer'">A fazer</ion-radio>
+                            </div>
+                            <div class="col">
+                                <ion-radio ng-model="cuidado.status" ng-value="'concluido'">Concluído</ion-radio>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+
+                <a ng-click="salvarCuidado()">
+                    <button class="button button-block button-energized">
+                        Salvar
+                    </button>
+                </a>
+                <a ng-click="compartilhar(paciente, cuidado)">
+                    <button class="icon ion-share button button-block button-energized">
+                        Compartilhar
+                    </button>
+                </a>
+            </ion-content>
+            <ion-content padding="true" ng-show="cuidados_add">
+                <span>Cuidados &rsaquo; Adicionar</span>
+                <div class="list">
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Data do atendimento</span>
+                        <input type="date" ng-model="cuidado.data">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Tipo de cuidado</span>
+                        <input type="text" ng-model="cuidado.tipo">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Descricao do atendimento (SOAP)</span>
+                        <input type="text" ng-model="cuidado.descricao">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Articulação do cuidado</span>
+                        <input type="text" ng-model="cuidado.articulacao">
+                        <div class="row">
+
+                            <div class="col">
+                                <!-- <ion-radio ng-model="cuidado.status" ng-value="'afazer'">A fazer</ion-radio> -->
+                                <ion-checkbox ng-model="cuidado.status" value="afazer">A fazer</ion-checkbox>
+                            </div>
+                            <div class="col">
+                                <!-- <ion-radio ng-model="cuidado.status" ng-value="'concluido'">Concluído</ion-radio> -->
+                                <ion-checkbox ng-model="!cuidado.status" value="concluido">Concluído</ion-checkbox>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <a ng-click="salvarCuidado()">
+                    <button class="button button-block button-energized">
+                        Adicionar
+                    </button>
+                </a>
+            </ion-content>
+        </ion-tab>
+        <!--
+        <ion-tab title="Teste" ng-href="#/app/paciente-teste">
+            <ion-content padding="true">
+                <ion-nav-view name="tab-teste"></ion-nav-view>
+            </ion-content>
+        </ion-tab>
+        -->
+    </ion-tabs>
+
+</ion-view>

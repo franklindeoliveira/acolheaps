@@ -1,0 +1,41 @@
+<ion-view hide-nav-bar="true" cache-view="false">
+  <div class="list">
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Nome</span>
+	    <input type="text" value="{{paciente.nome}}">
+	  </label>
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Idade</span>
+	    <input type="text" value="{{paciente.idade}}">
+	  </label>
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Nascimento</span>
+	    <input type="date" value="{{paciente.nasc | date: 'dd/MM/yyyy'}}">
+	  </label>
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Prontuário</span>
+	    <input type="text" value="{{paciente.numero_prontuario}}">
+	  </label>
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Telefone</span>
+	    <input type="text" value="{{paciente.nome}}">
+	  </label>
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Escola</span>
+	    <input type="text" value="{{paciente.escola}}">
+	  </label>
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Trabalho</span>
+	    <input type="text" value="{{paciente.trabalho}}">
+	  </label>
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Responsável</span>
+	    <input type="text" value="{{paciente.respref}}">
+	  </label>
+	  <label class="item item-input item-stacked-label">
+	    <span class="input-label">Vulnerabilidade</span>
+	    <input type="text" value="{{paciente.nvulnerab}}">
+	  </label>
+	</div>
+	<a class="button" href="#/app/paciente-info" ui-sref='app.paciente-info({id: paciente.id})'>Salvar</a>
+</ion-view>

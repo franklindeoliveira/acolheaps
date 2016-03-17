@@ -1,0 +1,23 @@
+<ion-view cache-view="false" view-title="Articulação do cuidado">
+    <ion-content padding="true">
+        <table ng-table="tableParams" class="table table-condensed table-bordered table-striped" show-filter="true">
+            <tr ng-repeat="articulacao in $data">
+                <td title="'Paciente'" filter="{ paciente: 'text'}" sortable="'paciente'">
+                    <a ng-href="#/app/paciente-info/{{articulacao.id_paciente}}/cuidados_info/{{articulacao.id}}">
+                        {{articulacao.paciente}}
+                    </a>
+                </td>
+                <td title="'Desc. (SOAP)'" filter="{ descricao: 'text'}" sortable="'descricao'">
+                    <a ng-href="#/app/paciente-info/{{articulacao.id_paciente}}/cuidados_info/{{articulacao.id}}">
+                        {{articulacao.descricao}}
+                    </a>
+                </td>
+                <td title="'A fazer'" filter="{ status: 'text'}" sortable="'status'">
+                    <a ng-href="#/app/paciente-info/{{articulacao.id_paciente}}/cuidados_info/{{articulacao.id}}">
+                        {{articulacao.status}}
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </ion-content>
+</ion-view>
